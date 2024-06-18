@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    
+}
+.nav_links{
+    
+    display: flex;
+    gap: 30px;
+}
+.nav_link{
+    list-style-type: none;
+    
+}
+.nav_link a{
+    text-decoration: none;
+    color: rgb(91, 31, 31);
+
+}
