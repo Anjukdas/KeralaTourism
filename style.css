@@ -113,6 +113,16 @@ main section a{
     padding: 10px;
 
 }
+.griditem_name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-decoration-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
 .seemore {
     display: block;
     margin: 20px auto;
@@ -132,5 +142,37 @@ main section a{
 }
 .seemore a:hover {
     text-decoration: underline;
+}
+.aboutkerala{
+    font-size: 40px;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-color: green;
+    margin: 20px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.about-section img {
+    max-width: 300px;
+    max-height: 300px;
+}
+.about-section p {
+    flex: 1;
+    font-size: 30px;
+    justify-content: center;
+    margin-right: 20px;
+    padding: 40px;
+}
+.para2 {
+    flex: 1;
+    font-size: 30px;
+    justify-content: center;
+    margin-right: 20px;
+    padding: 40px;
 }
 
