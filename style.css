@@ -1,21 +1,90 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+
+
+}
 header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px 80px;
     align-items: center;
     
 }
-.nav_links{
-    
+.nav_links{    
     display: flex;
-    gap: 30px;
+    gap: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px;
+   
 }
 .nav_link{
     list-style-type: none;
     
 }
 .nav_link a{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
     text-decoration: none;
-    color: rgb(91, 31, 31);
 
 }
+.nav_link button {
+    border: 5px solid green;
+    padding: 0px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+.nav_link .signup {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+main {
+    height: 100vh;
+    background-image: url('./images/main_bg.jpg');
+    background-size:cover ;
+    /* background-position: center; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    /* color: white; */
+    /* padding: 20px 40px; */
+    /* box-sizing: border-box; */
+}
+main section 
+{
+    text-align: center;
+    margin-top: 100px;   
+}
+main section h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    
+}
+main section a{
+    color: white;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    gap: 90px;
+    
+   
+
+}
+.logo img{
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fits within the round shape */
+}
+
