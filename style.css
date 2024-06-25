@@ -88,3 +88,49 @@ main section a{
     object-fit: cover; /* Ensures the image fits within the round shape */
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.grid-item {
+    text-align: center;
+}
+.grid-item img {
+    width: 750px;
+    height: 350px;
+}
+.topdestination h1{
+    text-align: left;
+    color: rgb(21, 17, 17);
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    text-decoration-color: green;
+    padding: 10px;
+
+}
+.seemore {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.seemore a {
+    color: white;
+    text-decoration: none;
+}
+.seemore a:hover {
+    text-decoration: underline;
+}
+
